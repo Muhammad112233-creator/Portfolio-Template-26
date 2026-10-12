@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sound — Adrian Voss</title>
+  <meta name="description" content="Scores, sonic identities and audio-reactive visuals by Adrian Voss." />
+  <link rel="icon" type="image/png" href="img/favicon.png" />
+  <link rel="preload" as="font" type="font/woff2" href="fonts/archivo-var-latin.woff2" crossorigin />
+  <link rel="stylesheet" href="css/fonts.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/menu.css" />
+  <link rel="stylesheet" href="css/pages.css" />
+</head>
+
+<body class="theme-dark noscroll">
+  <div id="grain" aria-hidden="true"></div>
+
+  <div id="preloader" role="status" aria-label="Loading">
+    <svg class="mark" viewBox="0 0 100 110" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <polygon points="50 4 92 27 92 82 50 106 8 82 8 27" fill="currentColor"/>
+      <polygon points="33 72 50 40 67 72 58 72 50 55 42 72" fill="#ece7e2"/>
+      <rect x="46.5" y="66" width="7" height="7" fill="#ff6a3c"/>
+    </svg>
+    <div class="loadbar" aria-hidden="true"><span></span></div>
+  </div>
+
+  <div id="page-veil" aria-hidden="true"></div>
+
+  <a id="brand" href="index.html" aria-label="Adrian Voss — home" data-no-veil>
+    <svg viewBox="0 0 100 110" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <polygon points="50 4 92 27 92 82 50 106 8 82 8 27"/>
+      <polygon points="33 72 50 40 67 72 58 72 50 55 42 72" fill="#ece7e2"/>
+      <rect x="46.5" y="66" width="7" height="7" fill="#ff6a3c"/>
+    </svg>
+  </a>
+
+  <button id="menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="menu-overlay">
+    <span class="bar"></span>
+    <span class="bar"></span>
+  </button>
+
+  <nav id="menu-overlay" aria-label="Main menu">
+    <div class="corner corner--left">© ADRIAN<br />VOSS</div>
+    <div class="corner corner--right">PICK A<br />/WORLD</div>
+    <div class="corner corner--mid">©2026 — ADRIAN VOSS</div>
+    <div class="menu-gallery">
+      <a class="menu-item" href="works.html">
+        <span class="frame">
+          <img src="img/final/menu_01.webp" alt="Brand worlds — chrome flacon still life" />
+          <img class="img-hover" src="img/final/menu_01_hover.webp" alt="" aria-hidden="true" />
+        </span>
+        <span class="label"><span class="idx">01</span> Brands <span class="arrow">→</span></span>
+      </a>
+      <a class="menu-item" href="games.html">
+        <span class="frame">
+          <img src="img/final/menu_02.webp" alt="Game worlds — floating temple environment" />
+          <img class="img-hover" src="img/final/menu_02_hover.webp" alt="" aria-hidden="true" />
+        </span>
+        <span class="label"><span class="idx">02</span> Games <span class="arrow">→</span></span>
+      </a>
+      <a class="menu-item" href="sound.html">
+        <span class="frame">
+          <img src="img/final/menu_03.webp" alt="Sound worlds — glass waveform sculpture" />
+          <img class="img-hover" src="img/final/menu_03_hover.webp" alt="" aria-hidden="true" />
+        </span>
+        <span class="label"><span class="idx">03</span> Sound <span class="arrow">→</span></span>
+      </a>
+    </div>
+  </nav>
+
+  <main>
+    <!-- ========================= PAGE HERO ========================= -->
+    <section class="grandintro" data-bg="dark">
+      <div class="bg-fill" data-parallax>
+        <video src="video/reel_stage.mp4" poster="img/final/menu_03_hover.webp" autoplay muted loop playsinline preload="metadata" aria-label="Concert lights drifting through fog"></video>
+      </div>
+      <h1 class="page-title">
+        <span class="row mask-line"><span>Sound</span></span>
+        <span class="row mask-line"><span class="thin">Worlds</span></span>
+      </h1>
+    </section>
+
+    <p class="page-meta" data-bg="light" data-reveal>
+      Scores and sonic identities shaped <strong>alongside the image</strong>,
+      never after it. Tap a track below — the equalizer shows where your
+      own audio would play.
+    </p>
+
+    <!-- ====================== DISCIPLINE STRIP ====================== -->
+    <div class="discipline-strip" data-bg="light">
+      <span class="word"><span>Score</span></span><i class="dot"></i>
+      <span class="word"><span>Identity</span></span><i class="dot"></i>
+      <span class="word"><span>Spatial</span></span><i class="dot"></i>
+      <span class="word"><span>Mix</span></span>
+    </div>
+
+    <!-- ========================= TRACK LIST ========================= -->
+    <section class="tracks" data-bg="light" aria-label="Selected tracks">
+      <div class="track" role="button" tabindex="0">
+        <span class="no">01</span>
+        <h3 class="name">Dusk Engine</h3>
+        <span class="role">Score — The Long Dusk</span>
+        <span class="dur">3:42</span>
+        <span class="eq" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></span>
+      </div>
+      <div class="track" role="button" tabindex="0">
+        <span class="no">02</span>
+        <h3 class="name">Marble Weather</h3>
+        <span class="role">Sonic Identity — Aurora Labs</span>
+        <span class="dur">1:08</span>
+        <span class="eq" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></span>
+      </div>
+      <div class="track" role="button" tabindex="0">
+        <span class="no">03</span>
+        <h3 class="name">Lowland Choir</h3>
+        <span class="role">Ambience — Pale Rider</span>
+        <span class="dur">5:17</span>
+        <span class="eq" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></span>
+      </div>
+      <div class="track" role="button" tabindex="0">
+        <span class="no">04</span>
+        <h3 class="name">Bottle &amp; Static</h3>
+        <span class="role">Sound Design — Nordwind</span>
+        <span class="dur">0:54</span>
+        <span class="eq" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></span>
+      </div>
+      <div class="track" role="button" tabindex="0">
+        <span class="no">05</span>
+        <h3 class="name">Nightjar Theme</h3>
+        <span class="role">Album Visuals — Nightjar</span>
+        <span class="dur">4:03</span>
+        <span class="eq" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></span>
+      </div>
+    </section>
+
+    <!-- ========================== ART GRID ========================== -->
+    <section class="arty" data-bg="light">
+      <figure class="piece tall">
+        <img src="img/final/menu_03.webp" alt="Glass waveform sculpture" loading="lazy" />
+        <span class="veil"></span>
+        <figcaption class="cap">Pulse — Key Art <span class="yr">2026</span></figcaption>
+      </figure>
+      <figure class="piece wide">
+        <img src="img/final/p_menu_02_hover.webp" alt="Arena ambience visual reference" loading="lazy" />
+        <span class="veil"></span>
+        <figcaption class="cap">Lowland Choir — Session <span class="yr">2025</span></figcaption>
+      </figure>
+      <figure class="piece half">
+        <img src="img/final/cover_wave.webp" alt="Particle wave landscape, audio-reactive study" loading="lazy" />
+        <span class="veil"></span>
+        <figcaption class="cap">Reactive Study 02 <span class="yr">2024</span></figcaption>
+      </figure>
+      <figure class="piece half pull">
+        <img src="img/final/fleet.webp" alt="Concept cars crossing a dark hangar" loading="lazy" />
+        <span class="veil"></span>
+        <figcaption class="cap">Nightjar — Tour Visuals <span class="yr">2024</span></figcaption>
+      </figure>
+    </section>
+
+    <!-- ========================= NEXT / FOOTER ========================= -->
+    <a class="next-up" href="index.html" data-bg="light">
+      <small>Back to</small>
+      <span class="big">Home →</span>
+    </a>
+
+    <footer class="sheet footer" data-bg="dark">
+      <div class="guides" aria-hidden="true"><i></i><i></i></div>
+      <div class="footer-stage">
+        <h2 class="footer-title">
+          <span class="row mask-line"><span class="thin">Let's</span></span>
+          <span class="row mask-line"><span>Make</span></span>
+          <span class="row mask-line"><span class="thin">Waves</span></span>
+        </h2>
+      </div>
+      <div class="contact-strip">
+        <a class="cta" href="mailto:hello@adrianvoss.studio" data-no-veil>
+          <span class="cta-label">Get in touch</span>
+          <svg class="cta-arrow" viewBox="0 0 15 24" xmlns="http://www.w3.org/2000/svg" fill="none" aria-hidden="true">
+            <path d="M1 1L13 12L1 23" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+        <p class="contact-card" data-reveal>
+          <span class="who">Adrian Voss</span><br />
+          Art Director | 3D Artist<br />
+          Freelance<br /><br />
+          Paris — France<br /><br />
+          <a href="mailto:hello@adrianvoss.studio" data-no-veil>hello@adrianvoss.studio</a><br />
+          <a href="tel:+33700000000" data-no-veil>+33 7 00 00 00 00</a>
+        </p>
+      </div>
+      <p class="corner-cap corner-cap--bl">© ADRIAN<br />VOSS</p>
+    </footer>
+  </main>
+
+  <script src="js/vendor/gsap.min.js"></script>
+  <script src="js/vendor/ScrollTrigger.min.js"></script>
+  <script src="js/vendor/lenis.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/pages.js"></script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+/* ============================================================
+   FONTS — Archivo (variable, 100–900)
+   Self-hosted OFL typeface, loaded once and shared everywhere.
+   We map the numeric weights we use onto the variable file so
+   the browser interpolates between them without extra requests.
+   ============================================================ */
+
+@font-face {
+  font-family: 'Archivo';
+  src: url('../fonts/archivo-var-latin.woff2') format('woff2');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Design tokens for type */
+:root {
+  --font-sans: 'Archivo', 'Helvetica Neue', Arial, sans-serif;
+  --fw-thin: 100;
+  --fw-light: 250;
+  --fw-regular: 340;
+  --fw-medium: 500;
+  --fw-bold: 650;
+}

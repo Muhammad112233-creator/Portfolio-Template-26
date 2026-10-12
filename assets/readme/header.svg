@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="250" viewBox="0 0 880 250">
+<defs><linearGradient id="rb" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0.00" stop-color="#ff004c"><animate attributeName="stop-color" values="#ff004c;#ff8a00;#ffe600;#3ddb4f;#2f9bff;#8b3dff;#ff004c" dur="8s" repeatCount="indefinite"/></stop><stop offset="0.20" stop-color="#ff8a00"><animate attributeName="stop-color" values="#ff8a00;#ffe600;#3ddb4f;#2f9bff;#8b3dff;#ff004c;#ff8a00" dur="8s" repeatCount="indefinite"/></stop><stop offset="0.40" stop-color="#ffe600"><animate attributeName="stop-color" values="#ffe600;#3ddb4f;#2f9bff;#8b3dff;#ff004c;#ff8a00;#ffe600" dur="8s" repeatCount="indefinite"/></stop><stop offset="0.60" stop-color="#3ddb4f"><animate attributeName="stop-color" values="#3ddb4f;#2f9bff;#8b3dff;#ff004c;#ff8a00;#ffe600;#3ddb4f" dur="8s" repeatCount="indefinite"/></stop><stop offset="0.80" stop-color="#2f9bff"><animate attributeName="stop-color" values="#2f9bff;#8b3dff;#ff004c;#ff8a00;#ffe600;#3ddb4f;#2f9bff" dur="8s" repeatCount="indefinite"/></stop><stop offset="1.00" stop-color="#8b3dff"><animate attributeName="stop-color" values="#8b3dff;#ff004c;#ff8a00;#ffe600;#3ddb4f;#2f9bff;#8b3dff" dur="8s" repeatCount="indefinite"/></stop></linearGradient></defs>
+<rect width="880" height="250" rx="14" fill="#161618"/>
+<polygon points="70,58 98,72 98,106 70,120 42,106 42,72" fill="#ece7e2"/>
+<polygon points="58,103 70,80 82,103 76,103 70,91 64,103" fill="#161618"/>
+<rect x="68" y="98" width="4" height="4" fill="#ff6a3c">
+  <animate attributeName="opacity" values="1;.2;1" dur="1.6s" repeatCount="indefinite"/>
+</rect>
+<text x="130" y="118" font-family="Archivo, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="64" font-weight="700" letter-spacing="4" fill="url(#rb)">ADRIAN VOSS</text>
+<text x="132" y="152" font-family="Archivo, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" font-weight="400" letter-spacing="6" fill="#9c9790">PORTFOLIO TEMPLATE — IMMERSIVE EDITION</text>
+<rect x="130" y="176" width="620" height="3" fill="#2a2a2d"/>
+<rect x="130" y="176" width="200" height="3" fill="url(#rb)">
+  <animate attributeName="width" values="120;560;120" dur="6s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1"/>
+</rect>
+<circle cx="800" cy="70" r="3" fill="#3ddb4f"><animate attributeName="cy" values="70;60;70" dur="3s" repeatCount="indefinite"/></circle>
+<circle cx="826" cy="96" r="2.5" fill="#ff8a00"><animate attributeName="cy" values="96;84;96" dur="3.8s" repeatCount="indefinite"/></circle>
+<circle cx="758" cy="92" r="2" fill="#8b3dff"><animate attributeName="cy" values="92;80;92" dur="3.4s" repeatCount="indefinite"/></circle>
+<text x="132" y="212" font-family="Archivo, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" letter-spacing="2" fill="#6f6a64">HTML · CSS · VANILLA JS · GSAP · LENIS — ZERO BUILD STEP</text>
+</svg>

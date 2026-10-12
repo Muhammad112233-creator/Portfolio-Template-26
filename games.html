@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Games — Adrian Voss</title>
+  <meta name="description" content="Game environments, cinematics and real-time worlds by Adrian Voss." />
+  <link rel="icon" type="image/png" href="img/favicon.png" />
+  <link rel="preload" as="font" type="font/woff2" href="fonts/archivo-var-latin.woff2" crossorigin />
+  <link rel="stylesheet" href="css/fonts.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/menu.css" />
+  <link rel="stylesheet" href="css/pages.css" />
+</head>
+
+<body class="theme-dark noscroll">
+  <div id="grain" aria-hidden="true"></div>
+
+  <div id="preloader" role="status" aria-label="Loading">
+    <svg class="mark" viewBox="0 0 100 110" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <polygon points="50 4 92 27 92 82 50 106 8 82 8 27" fill="currentColor"/>
+      <polygon points="33 72 50 40 67 72 58 72 50 55 42 72" fill="#ece7e2"/>
+      <rect x="46.5" y="66" width="7" height="7" fill="#ff6a3c"/>
+    </svg>
+    <div class="loadbar" aria-hidden="true"><span></span></div>
+  </div>
+
+  <div id="page-veil" aria-hidden="true"></div>
+
+  <a id="brand" href="index.html" aria-label="Adrian Voss — home" data-no-veil>
+    <svg viewBox="0 0 100 110" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <polygon points="50 4 92 27 92 82 50 106 8 82 8 27"/>
+      <polygon points="33 72 50 40 67 72 58 72 50 55 42 72" fill="#ece7e2"/>
+      <rect x="46.5" y="66" width="7" height="7" fill="#ff6a3c"/>
+    </svg>
+  </a>
+
+  <button id="menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="menu-overlay">
+    <span class="bar"></span>
+    <span class="bar"></span>
+  </button>
+
+  <nav id="menu-overlay" aria-label="Main menu">
+    <div class="corner corner--left">© ADRIAN<br />VOSS</div>
+    <div class="corner corner--right">PICK A<br />/WORLD</div>
+    <div class="corner corner--mid">©2026 — ADRIAN VOSS</div>
+    <div class="menu-gallery">
+      <a class="menu-item" href="works.html">
+        <span class="frame">
+          <img src="img/final/menu_01.webp" alt="Brand worlds — chrome flacon still life" />
+          <img class="img-hover" src="img/final/menu_01_hover.webp" alt="" aria-hidden="true" />
+        </span>
+        <span class="label"><span class="idx">01</span> Brands <span class="arrow">→</span></span>
+      </a>
+      <a class="menu-item" href="games.html">
+        <span class="frame">
+          <img src="img/final/menu_02.webp" alt="Game worlds — floating temple environment" />
+          <img class="img-hover" src="img/final/menu_02_hover.webp" alt="" aria-hidden="true" />
+        </span>
+        <span class="label"><span class="idx">02</span> Games <span class="arrow">→</span></span>
+      </a>
+      <a class="menu-item" href="sound.html">
+        <span class="frame">
+          <img src="img/final/menu_03.webp" alt="Sound worlds — glass waveform sculpture" />
+          <img class="img-hover" src="img/final/menu_03_hover.webp" alt="" aria-hidden="true" />
+        </span>
+        <span class="label"><span class="idx">03</span> Sound <span class="arrow">→</span></span>
+      </a>
+    </div>
+  </nav>
+
+  <main>
+    <!-- ========================= PAGE HERO ========================= -->
+    <section class="grandintro" data-bg="dark">
+      <div class="bg-fill" data-parallax>
+        <img src="img/final/menu_02_hover.webp" alt="Rune-lit boss arena in a dark fantasy world" />
+      </div>
+      <h1 class="page-title">
+        <span class="row mask-line"><span>Game</span></span>
+        <span class="row mask-line"><span class="thin">Worlds</span></span>
+      </h1>
+    </section>
+
+    <p class="page-meta" data-bg="light" data-reveal>
+      Environments, cinematics and real-time spaces built to be
+      <strong>played, not just watched</strong>. Style first, polygon
+      budget second — then we negotiate.
+    </p>
+
+    <!-- ====================== DISCIPLINE STRIP ====================== -->
+    <div class="discipline-strip" data-bg="light">
+      <span class="word"><span>Environments</span></span><i class="dot"></i>
+      <span class="word"><span>Cinematics</span></span><i class="dot"></i>
+      <span class="word"><span>Real-time</span></span><i class="dot"></i>
+      <span class="word"><span>Concept</span></span>
+    </div>
+
+    <!-- ========================== ART GRID ========================== -->
+    <section class="arty" data-bg="light">
+      <figure class="piece sq">
+        <img src="img/final/menu_02.webp" alt="Floating temple island with glowing crystals" loading="lazy" />
+        <span class="veil"></span>
+        <figcaption class="cap">Pale Rider — Sky Temple <span class="yr">2026</span></figcaption>
+      </figure>
+      <figure class="piece wide">
+        <img src="img/final/p_menu_02_hover.webp" alt="Rune arena concept for boss encounter" loading="lazy" />
+        <span class="veil"></span>
+        <figcaption class="cap">Pale Rider — Arena <span class="yr">2026</span></figcaption>
+      </figure>
+      <figure class="piece half pull">
+        <img src="img/final/hero_03.webp" alt="Wireframe mountain over a mirrored plain" loading="lazy" />
+        <span class="veil"></span>
+        <figcaption class="cap">Vanta — The Long Dusk <span class="yr">2025</span></figcaption>
+      </figure>
+      <figure class="piece tall">
+        <img src="img/final/cover_character.webp" alt="Game hero with glowing cloak overlooking ruins" loading="lazy" />
+        <span class="veil"></span>
+        <figcaption class="cap">Pale Rider — Hero Sheet <span class="yr">2026</span></figcaption>
+      </figure>
+      <figure class="piece sq">
+        <img src="img/final/cover_headset.webp" alt="Matte black VR headset in violet rim light" loading="lazy" />
+        <span class="veil"></span>
+        <figcaption class="cap">Vanta — Headset Test <span class="yr">2024</span></figcaption>
+      </figure>
+      <figure class="piece wide push">
+        <img src="img/final/p_hero_01.webp" alt="Marble arch set piece, pre-visualization" loading="lazy" />
+        <span class="veil"></span>
+        <figcaption class="cap">Monolith — Previz <span class="yr">2024</span></figcaption>
+      </figure>
+    </section>
+
+    <!-- ======================= SHOWCASE ROWS ======================= -->
+    <section class="rows" data-bg="light">
+      <article class="row-item">
+        <div class="media"><img src="img/final/menu_02_hover.webp" alt="Pale Rider arena key art" loading="lazy" /></div>
+        <div class="info">
+          <span class="kicker">Environment Art — 2026</span>
+          <h3>Pale Rider, Act II</h3>
+          <p>
+            Eight square kilometers of scorched lowlands and sky temples
+            for an indie souls-like. World art direction, lighting bibles
+            and a kit of two hundred modular pieces.
+          </p>
+          <a class="link" href="#">Case study <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+
+      <article class="row-item flip">
+        <div class="media">
+          <video src="video/reel_dusk.mp4" poster="img/final/hero_03.webp" autoplay muted loop playsinline preload="metadata" aria-label="Ambient pan across the Long Dusk landscape"></video>
+        </div>
+        <div class="info">
+          <span class="kicker">Cinematic — 2025</span>
+          <h3>Vanta, The Long Dusk</h3>
+          <p>
+            Announcement trailer for a walking-sim about the last hour of
+            a dying star. Direction, layout, lighting and edit — rendered
+            in-engine over six weeks.
+          </p>
+          <a class="link" href="#">Case study <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+    </section>
+
+    <!-- ========================= NEXT / FOOTER ========================= -->
+    <a class="next-up" href="sound.html" data-bg="light">
+      <small>Next world</small>
+      <span class="big">Sound →</span>
+    </a>
+
+    <footer class="sheet footer" data-bg="dark">
+      <div class="guides" aria-hidden="true"><i></i><i></i></div>
+      <div class="footer-stage">
+        <h2 class="footer-title">
+          <span class="row mask-line"><span class="thin">Let's</span></span>
+          <span class="row mask-line"><span>Make</span></span>
+          <span class="row mask-line"><span class="thin">Waves</span></span>
+        </h2>
+      </div>
+      <div class="contact-strip">
+        <a class="cta" href="mailto:hello@adrianvoss.studio" data-no-veil>
+          <span class="cta-label">Get in touch</span>
+          <svg class="cta-arrow" viewBox="0 0 15 24" xmlns="http://www.w3.org/2000/svg" fill="none" aria-hidden="true">
+            <path d="M1 1L13 12L1 23" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+        <p class="contact-card" data-reveal>
+          <span class="who">Adrian Voss</span><br />
+          Art Director | 3D Artist<br />
+          Freelance<br /><br />
+          Paris — France<br /><br />
+          <a href="mailto:hello@adrianvoss.studio" data-no-veil>hello@adrianvoss.studio</a><br />
+          <a href="tel:+33700000000" data-no-veil>+33 7 00 00 00 00</a>
+        </p>
+      </div>
+      <p class="corner-cap corner-cap--bl">© ADRIAN<br />VOSS</p>
+    </footer>
+  </main>
+
+  <script src="js/vendor/gsap.min.js"></script>
+  <script src="js/vendor/ScrollTrigger.min.js"></script>
+  <script src="js/vendor/lenis.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/pages.js"></script>
+</body>
+</html>

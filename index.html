@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Adrian Voss — Art Director | 3D Artist</title>
+  <meta name="description" content="Adrian Voss is an independent art director and 3D artist crafting immersive worlds for brands, games and live events." />
+  <meta property="og:title" content="Adrian Voss — Art Director | 3D Artist" />
+  <meta property="og:description" content="Immersive worlds for brands, games and live events." />
+  <meta property="og:image" content="img/final/hero_01.webp" />
+  <meta name="theme-color" content="#1c1c1e" />
+
+  <link rel="icon" type="image/png" href="img/favicon.png" />
+  <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
+
+  <link rel="preload" as="font" type="font/woff2" href="fonts/archivo-var-latin.woff2" crossorigin />
+  <link rel="preload" as="image" href="img/final/hero_01.webp" />
+
+  <link rel="stylesheet" href="css/fonts.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/menu.css" />
+</head>
+
+<body class="theme-dark noscroll">
+  <div id="grain" aria-hidden="true"></div>
+
+  <!-- Preloader -->
+  <div id="preloader" role="status" aria-label="Loading">
+    <svg class="mark" viewBox="0 0 100 110" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <polygon points="50 4 92 27 92 82 50 106 8 82 8 27" fill="currentColor"/>
+      <polygon points="33 72 50 40 67 72 58 72 50 55 42 72" fill="#ece7e2"/>
+      <rect x="46.5" y="66" width="7" height="7" fill="#ff6a3c"/>
+    </svg>
+    <div class="loadbar" aria-hidden="true"><span></span></div>
+  </div>
+
+  <div id="page-veil" aria-hidden="true"></div>
+
+  <!-- Fixed brand mark -->
+  <a id="brand" href="index.html" aria-label="Adrian Voss — home" data-no-veil>
+    <svg viewBox="0 0 100 110" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <polygon points="50 4 92 27 92 82 50 106 8 82 8 27"/>
+      <polygon points="33 72 50 40 67 72 58 72 50 55 42 72" fill="#ece7e2"/>
+      <rect x="46.5" y="66" width="7" height="7" fill="#ff6a3c"/>
+    </svg>
+  </a>
+
+  <!-- Menu toggle -->
+  <button id="menu-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="menu-overlay">
+    <span class="bar"></span>
+    <span class="bar"></span>
+  </button>
+
+  <!-- Fullscreen menu -->
+  <nav id="menu-overlay" aria-label="Main menu">
+    <div class="corner corner--left">© ADRIAN<br />VOSS</div>
+    <div class="corner corner--right">PICK A<br />/WORLD</div>
+    <div class="corner corner--mid">©2026 — ADRIAN VOSS</div>
+
+    <div class="menu-gallery">
+      <a class="menu-item" href="works.html">
+        <span class="frame">
+          <img src="img/final/menu_01.webp" alt="Brand worlds — chrome flacon still life" />
+          <img class="img-hover" src="img/final/menu_01_hover.webp" alt="" aria-hidden="true" />
+        </span>
+        <span class="label"><span class="idx">01</span> Brands <span class="arrow">→</span></span>
+      </a>
+
+      <a class="menu-item" href="games.html">
+        <span class="frame">
+          <img src="img/final/menu_02.webp" alt="Game worlds — floating temple environment" />
+          <img class="img-hover" src="img/final/menu_02_hover.webp" alt="" aria-hidden="true" />
+        </span>
+        <span class="label"><span class="idx">02</span> Games <span class="arrow">→</span></span>
+      </a>
+
+      <a class="menu-item" href="sound.html">
+        <span class="frame">
+          <img src="img/final/menu_03.webp" alt="Sound worlds — glass waveform sculpture" />
+          <img class="img-hover" src="img/final/menu_03_hover.webp" alt="" aria-hidden="true" />
+        </span>
+        <span class="label"><span class="idx">03</span> Sound <span class="arrow">→</span></span>
+      </a>
+    </div>
+  </nav>
+
+  <main>
+    <!-- ============================== HERO ============================== -->
+    <section class="slide hero" data-bg="dark">
+      <div class="bg-fill">
+        <div class="slideshow" data-slideshow="4000">
+          <img src="img/final/hero_01.webp" alt="Monumental marble arch floating over dark water" class="is-live" fetchpriority="high" />
+          <img src="img/final/hero_02.webp" alt="Faceted glass flacon on wet black stone" />
+          <img src="img/final/hero_03.webp" alt="Wireframe mountain above a mirrored plain at dusk" />
+        </div>
+      </div>
+
+      <h1 class="hero-title">
+        <span class="row mask-line"><span>Shaping</span></span>
+        <span class="row mask-line"><span class="thin">Digital</span></span>
+        <span class="row mask-line"><span>Worlds</span></span>
+      </h1>
+
+      <p class="hero-note">*Since 2012</p>
+
+      <div class="scroll-hint" aria-hidden="true">
+        <span>Scroll</span>
+        <span class="wire"></span>
+      </div>
+
+      <p class="corner-cap corner-cap--bl">© ADRIAN<br />VOSS</p>
+      <p class="corner-cap corner-cap--br">Art Director<br />3D Artist</p>
+    </section>
+
+    <!-- ============================ INTRO ============================= -->
+    <section class="sheet intro" data-bg="light">
+      <p class="statement" data-reveal>
+        I am <strong>Adrian Voss</strong>, an independent <strong>art director</strong>.
+        Driven by detail, I design immersive experiences for brands,
+        games and live events.
+      </p>
+
+      <div class="trio">
+        <figure class="a" data-reveal>
+          <img src="img/final/grid_01.webp" alt="Inflated chrome shapes over a warm studio floor" data-settle loading="lazy" />
+          <figcaption>Orbe — Chrome Study</figcaption>
+        </figure>
+        <figure class="b" data-reveal data-delay="0.1">
+          <img src="img/final/grid_02.webp" alt="Futuristic botanical greenhouse under a glass dome" data-settle loading="lazy" />
+          <figcaption>Verdant — Spatial Study</figcaption>
+        </figure>
+        <figure class="c" data-reveal data-delay="0.2">
+          <img src="img/final/grid_03.webp" alt="Mannequin bust wrapped in holographic fabric" data-settle loading="lazy" />
+          <figcaption>Halo — Material R&amp;D</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ========================== FLAGSHIP ============================ -->
+    <section class="sheet flagship" data-bg="light">
+      <h2 class="duo" data-mask>
+        <span class="row mask-line"><span class="thin">Never</span></span>
+        <span class="row mask-line"><span>Ordinary</span></span>
+      </h2>
+
+      <p class="duo-copy" data-reveal>
+        I build <strong>immersive worlds</strong> made to be remembered.
+        My <strong>360° practice</strong> spans art direction, 3D craft,
+        motion and interaction — helping teams find a bold, honest
+        and <strong>timeless identity</strong>.
+      </p>
+    </section>
+
+    <!-- ============================ ABOUT ============================= -->
+    <section class="slide about" data-bg="dark">
+      <div class="bg-fill" data-parallax>
+        <img src="img/final/about_bg.webp" alt="A lone figure before a monumental arch in fog" loading="lazy" />
+      </div>
+
+      <div class="about-inner">
+        <p data-reveal>
+          For more than twelve years I have worked across the
+          <strong>digital field</strong> — designing worlds where design,
+          3D, motion and sound meet.
+        </p>
+        <p data-reveal>
+          Much of that path ran through the <strong>luxury industry</strong>,
+          where nothing survives without detail. I keep one eye on new
+          tools and trends, and the other on what never changes —
+          <strong>craftsmanship</strong>.
+        </p>
+        <p data-reveal>
+          Today I focus on games and real-time worlds, chasing images
+          and places people haven't seen before — <strong>uncharted territory</strong>,
+          on purpose.
+        </p>
+      </div>
+
+      <div class="index-stack on-dark-bg">
+        <span class="num">001</span>
+        <span class="name">/About</span>
+      </div>
+
+      <p class="corner-cap corner-cap--bl">© ADRIAN<br />VOSS</p>
+    </section>
+
+    <!-- ============================ SKILLS ============================ -->
+    <section class="sheet skills" data-bg="light">
+      <div class="skills-layout">
+        <div class="skilltree" aria-hidden="true">
+          <svg viewBox="0 0 480 420" xmlns="http://www.w3.org/2000/svg">
+            <!-- root -->
+            <path class="branch" d="M240 400 C240 340 240 320 240 286" />
+            <!-- level 1 -->
+            <path class="branch" d="M240 286 C180 260 110 250 84 210" />
+            <path class="branch" d="M240 286 C300 262 372 252 398 208" />
+            <path class="branch" d="M240 286 C240 244 240 224 240 196" />
+            <!-- level 2 -->
+            <path class="branch" d="M84 210 C60 176 58 150 74 122" />
+            <path class="branch" d="M84 210 C118 188 138 168 146 138" />
+            <path class="branch" d="M398 208 C424 174 426 148 410 120" />
+            <path class="branch" d="M398 208 C364 186 344 166 336 136" />
+            <path class="branch" d="M240 196 C204 168 196 138 202 108" />
+            <path class="branch" d="M240 196 C276 168 284 138 278 108" />
+            <!-- crown -->
+            <path class="branch" d="M240 196 C240 156 240 122 240 88" />
+
+            <circle class="node" cx="240" cy="286" r="7" />
+            <circle class="node" cx="84" cy="210" r="6" />
+            <circle class="node" cx="398" cy="208" r="6" />
+            <circle class="node" cx="240" cy="196" r="6" />
+            <circle class="node accent" cx="74" cy="122" r="5" />
+            <circle class="node accent" cx="146" cy="138" r="5" />
+            <circle class="node accent" cx="410" cy="120" r="5" />
+            <circle class="node accent" cx="336" cy="136" r="5" />
+            <circle class="node accent" cx="202" cy="108" r="5" />
+            <circle class="node accent" cx="278" cy="108" r="5" />
+            <circle class="node accent" cx="240" cy="88" r="6" />
+
+            <text class="leaf-label" x="52" y="106">Look</text>
+            <text class="leaf-label" x="132" y="122">World</text>
+            <text class="leaf-label" x="296" y="120">Motion</text>
+            <text class="leaf-label" x="392" y="104">Sound</text>
+            <text class="leaf-label" x="184" y="92">Code</text>
+            <text class="leaf-label" x="262" y="92">Story</text>
+            <text class="leaf-label" x="222" y="72">Craft</text>
+          </svg>
+        </div>
+
+        <div class="disciplines">
+          <article class="discipline" data-reveal>
+            <div class="row">
+              <span class="no">01</span>
+              <h3 class="what">Art Direction</h3>
+              <p class="how">Visual concepts, worldbuilding and image systems that give a project its voice.</p>
+            </div>
+          </article>
+          <article class="discipline" data-reveal>
+            <div class="row">
+              <span class="no">02</span>
+              <h3 class="what">3D &amp; CGI</h3>
+              <p class="how">Environments, products and characters — modeled, lit and rendered with intent.</p>
+            </div>
+          </article>
+          <article class="discipline" data-reveal>
+            <div class="row">
+              <span class="no">03</span>
+              <h3 class="what">Motion</h3>
+              <p class="how">Idents, trailers and UI choreography. Timing is where the feeling lives.</p>
+            </div>
+          </article>
+          <article class="discipline" data-reveal>
+            <div class="row">
+              <span class="no">04</span>
+              <h3 class="what">Interactive</h3>
+              <p class="how">Real-time scenes for the web and installations — WebGL, shaders and play.</p>
+            </div>
+          </article>
+          <article class="discipline" data-reveal>
+            <div class="row">
+              <span class="no">05</span>
+              <h3 class="what">Sound</h3>
+              <p class="how">Sonic identities and scores shaped alongside the image, never after it.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+
+      <figure class="fleet" data-reveal>
+        <img src="img/final/fleet.webp" alt="Cinematic strip of chrome forms drifting in dark studio light" data-parallax loading="lazy" />
+        <figcaption class="tag">Process — Form Studies, 2026</figcaption>
+      </figure>
+
+      <div class="social-rail" data-reveal>
+        <a href="#" aria-label="Instagram" title="Instagram">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2.2c3.2 0 3.6 0 4.9.1 3.3.1 4.7 1.6 4.8 4.8.1 1.3.1 1.6.1 4.9s0 3.6-.1 4.9c-.1 3.2-1.5 4.7-4.8 4.8-1.3.1-1.6.1-4.9.1s-3.6 0-4.9-.1c-3.3-.1-4.7-1.6-4.8-4.8C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.9C2.4 3.9 3.9 2.4 7.1 2.3 8.4 2.2 8.8 2.2 12 2.2Zm0 3.6a6.2 6.2 0 1 0 0 12.4 6.2 6.2 0 0 0 0-12.4Zm0 10.2a4 4 0 1 1 0-8 4 4 0 0 1 0 8Zm6.4-10.5a1.4 1.4 0 1 0 0 2.9 1.4 1.4 0 0 0 0-2.9Z"/></svg>
+        </a>
+        <a href="#" aria-label="Behance" title="Behance">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M8.2 10.7c1-.4 1.7-1.3 1.7-2.6 0-2.4-1.8-3.3-4-3.3H1.5v14.5h4.6c2.4 0 5-1.2 5-4.1 0-1.6-.8-3-2.9-3.5v-1Zm-4-3.6h1.5c1 0 1.9.2 1.9 1.5S6.7 10 5.7 10H4.2V7.1Zm1.8 9.9H4.2v-3.3h1.9c1.2 0 2.2.4 2.2 1.7s-1.1 1.6-2.3 1.6ZM21.3 8h-5.5v1.5h5.5V8ZM18.5 10.4c-2.9 0-4.7 2.1-4.7 4.8 0 2.9 1.9 4.7 4.7 4.7 2.2 0 3.7-1 4.3-3h-2.2c-.3.7-1 1-2 1-1.3 0-2.1-.8-2.2-2.2h6.6v-.6c0-2.7-1.7-4.7-4.5-4.7Zm-2.1 4c.2-1.2 1-2 2.1-2 1.2 0 1.9.8 2 2h-4.1Z"/></svg>
+        </a>
+        <a href="#" aria-label="ArtStation" title="ArtStation">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M1.7 16.7 4.6 21.5c.4.6 1 1 1.7 1h3.5l-8.1-5.8Zm13.5-6.6L10.7 1.5H7.2c-.7 0-1.3.4-1.7 1L3 6.3l8.5 14.6 2.9-5.1h6.3l-2.1-5.7h-3.5Zm-.3-3.9 2.8 4.8-2.7 4.7H9.4l4.4.1 2-3.5-3-5.1 1.1-2 1 1Z" transform="scale(0.9) translate(1.3 0)"/></svg>
+        </a>
+        <a href="#" aria-label="LinkedIn" title="LinkedIn">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4.98 3.5A2.5 2.5 0 1 1 0 3.5a2.5 2.5 0 0 1 4.98 0ZM.4 8.4h4.6V24H.4V8.4Zm7.6 0h4.4v2.1h.1c.6-1.2 2.1-2.4 4.4-2.4 4.7 0 5.6 3.1 5.6 7.1V24h-4.6v-7.7c0-1.9 0-4.2-2.6-4.2s-3 2-3 4V24H8V8.4Z"/></svg>
+        </a>
+      </div>
+
+      <div class="index-stack on-light-bg">
+        <span class="num">002</span>
+        <span class="name">/Skills</span>
+      </div>
+    </section>
+
+    <!-- ========================= ACHIEVEMENTS ========================= -->
+    <section class="sheet achievements" data-bg="light">
+      <div class="clients">
+        <div class="client-col">
+          <div class="client"><p class="name">Aurora Labs</p><p class="desc">VR Showroom</p></div>
+          <div class="client"><p class="name">Atelier Nova</p><p class="desc">Web Experience</p></div>
+          <div class="client"><p class="name">Nordwind</p><p class="desc">Brand World</p></div>
+          <div class="client"><p class="name">Helios &amp; Co</p><p class="desc">3D Campaign</p></div>
+          <div class="client"><p class="name">Maison Orbe</p><p class="desc">Metaverse Concept</p></div>
+          <div class="client"><p class="name">Kiln Studio</p><p class="desc">Motion Identity</p></div>
+          <div class="client"><p class="name">Vanta Games</p><p class="desc">Environment Art</p></div>
+        </div>
+
+        <div class="client-col">
+          <div class="client"><p class="name">Lumen Watches</p><p class="desc">Web Design</p></div>
+          <div class="client"><p class="name">Orbital FC</p><p class="desc">AR Activation</p></div>
+          <div class="client"><p class="name">Pale Rider</p><p class="desc">Game Trailer</p></div>
+          <div class="client"><p class="name">Sofrane</p><p class="desc">Pop-Up Design</p></div>
+          <div class="client"><p class="name">Terra Forma</p><p class="desc">VR Museum</p></div>
+          <div class="client"><p class="name">Hexagon Audio</p><p class="desc">Sound Identity</p></div>
+          <div class="client"><p class="name">Cirque Nova</p><p class="desc">Event Visuals</p></div>
+        </div>
+
+        <div class="client-col">
+          <div class="client"><p class="name">Monochrome</p><p class="desc">3D Application</p></div>
+          <div class="client"><p class="name">Haus Riva</p><p class="desc">Web Experience</p></div>
+          <div class="client"><p class="name">Field Theory</p><p class="desc">In-Store App</p></div>
+          <div class="client"><p class="name">Opus Collective</p><p class="desc">Loyalty Program</p></div>
+          <div class="client"><p class="name">Nightjar</p><p class="desc">Album Visuals</p></div>
+          <div class="client"><p class="name">Stella Motors</p><p class="desc">Car Configurator</p></div>
+          <div class="client"><p class="name">Wolf &amp; Wilde</p><p class="desc">Brand World</p></div>
+        </div>
+      </div>
+
+      <div class="index-stack on-light-bg">
+        <span class="num">003</span>
+        <span class="name">/Achievements</span>
+      </div>
+    </section>
+
+    <!-- ============================ FOOTER ============================ -->
+    <footer class="sheet footer" data-bg="dark">
+      <div class="guides" aria-hidden="true"><i></i><i></i></div>
+
+      <div class="footer-stage">
+        <h2 class="footer-title">
+          <span class="row mask-line"><span class="thin">Let's</span></span>
+          <span class="row mask-line"><span>Make</span></span>
+          <span class="row mask-line"><span class="thin">Waves</span></span>
+        </h2>
+      </div>
+
+      <div class="contact-strip">
+        <a class="cta" href="mailto:hello@adrianvoss.studio" data-no-veil>
+          <span class="cta-label">Get in touch</span>
+          <svg class="cta-arrow" viewBox="0 0 15 24" xmlns="http://www.w3.org/2000/svg" fill="none" aria-hidden="true">
+            <path d="M1 1L13 12L1 23" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+
+        <p class="contact-card" data-reveal>
+          <span class="who">Adrian Voss</span><br />
+          Art Director | 3D Artist<br />
+          Freelance<br /><br />
+          Paris — France<br /><br />
+          <a href="mailto:hello@adrianvoss.studio" data-no-veil>hello@adrianvoss.studio</a><br />
+          <a href="tel:+33700000000" data-no-veil>+33 7 00 00 00 00</a>
+        </p>
+      </div>
+
+      <div class="social-rail">
+        <a href="#" aria-label="Instagram" title="Instagram">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2.2c3.2 0 3.6 0 4.9.1 3.3.1 4.7 1.6 4.8 4.8.1 1.3.1 1.6.1 4.9s0 3.6-.1 4.9c-.1 3.2-1.5 4.7-4.8 4.8-1.3.1-1.6.1-4.9.1s-3.6 0-4.9-.1c-3.3-.1-4.7-1.6-4.8-4.8C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.9C2.4 3.9 3.9 2.4 7.1 2.3 8.4 2.2 8.8 2.2 12 2.2Zm0 3.6a6.2 6.2 0 1 0 0 12.4 6.2 6.2 0 0 0 0-12.4Zm0 10.2a4 4 0 1 1 0-8 4 4 0 0 1 0 8Zm6.4-10.5a1.4 1.4 0 1 0 0 2.9 1.4 1.4 0 0 0 0-2.9Z"/></svg>
+        </a>
+        <a href="#" aria-label="Behance" title="Behance">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M8.2 10.7c1-.4 1.7-1.3 1.7-2.6 0-2.4-1.8-3.3-4-3.3H1.5v14.5h4.6c2.4 0 5-1.2 5-4.1 0-1.6-.8-3-2.9-3.5v-1Zm-4-3.6h1.5c1 0 1.9.2 1.9 1.5S6.7 10 5.7 10H4.2V7.1Zm1.8 9.9H4.2v-3.3h1.9c1.2 0 2.2.4 2.2 1.7s-1.1 1.6-2.3 1.6ZM21.3 8h-5.5v1.5h5.5V8ZM18.5 10.4c-2.9 0-4.7 2.1-4.7 4.8 0 2.9 1.9 4.7 4.7 4.7 2.2 0 3.7-1 4.3-3h-2.2c-.3.7-1 1-2 1-1.3 0-2.1-.8-2.2-2.2h6.6v-.6c0-2.7-1.7-4.7-4.5-4.7Zm-2.1 4c.2-1.2 1-2 2.1-2 1.2 0 1.9.8 2 2h-4.1Z"/></svg>
+        </a>
+        <a href="#" aria-label="X" title="X">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M18.9 2H22l-6.8 7.8L23.3 22h-6.3l-4.9-6.4L6.5 22H3.3l7.3-8.3L1 2h6.5l4.4 5.9L18.9 2Zm-1.1 18h1.7L6.6 3.9H4.8L17.8 20Z"/></svg>
+        </a>
+        <a href="#" aria-label="LinkedIn" title="LinkedIn">
+          <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4.98 3.5A2.5 2.5 0 1 1 0 3.5a2.5 2.5 0 0 1 4.98 0ZM.4 8.4h4.6V24H.4V8.4Zm7.6 0h4.4v2.1h.1c.6-1.2 2.1-2.4 4.4-2.4 4.7 0 5.6 3.1 5.6 7.1V24h-4.6v-7.7c0-1.9 0-4.2-2.6-4.2s-3 2-3 4V24H8V8.4Z"/></svg>
+        </a>
+      </div>
+
+      <p class="corner-cap corner-cap--bl">© ADRIAN<br />VOSS</p>
+    </footer>
+  </main>
+
+  <script src="js/vendor/gsap.min.js"></script>
+  <script src="js/vendor/ScrollTrigger.min.js"></script>
+  <script src="js/vendor/lenis.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

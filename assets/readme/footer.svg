@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="120" viewBox="0 0 880 120">
+<defs><linearGradient id="rb3" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0.00" stop-color="#ff004c"><animate attributeName="stop-color" values="#ff004c;#ff8a00;#ffe600;#3ddb4f;#2f9bff;#8b3dff;#ff004c" dur="9s" repeatCount="indefinite"/></stop><stop offset="0.20" stop-color="#ff8a00"><animate attributeName="stop-color" values="#ff8a00;#ffe600;#3ddb4f;#2f9bff;#8b3dff;#ff004c;#ff8a00" dur="9s" repeatCount="indefinite"/></stop><stop offset="0.40" stop-color="#ffe600"><animate attributeName="stop-color" values="#ffe600;#3ddb4f;#2f9bff;#8b3dff;#ff004c;#ff8a00;#ffe600" dur="9s" repeatCount="indefinite"/></stop><stop offset="0.60" stop-color="#3ddb4f"><animate attributeName="stop-color" values="#3ddb4f;#2f9bff;#8b3dff;#ff004c;#ff8a00;#ffe600;#3ddb4f" dur="9s" repeatCount="indefinite"/></stop><stop offset="0.80" stop-color="#2f9bff"><animate attributeName="stop-color" values="#2f9bff;#8b3dff;#ff004c;#ff8a00;#ffe600;#3ddb4f;#2f9bff" dur="9s" repeatCount="indefinite"/></stop><stop offset="1.00" stop-color="#8b3dff"><animate attributeName="stop-color" values="#8b3dff;#ff004c;#ff8a00;#ffe600;#3ddb4f;#2f9bff;#8b3dff" dur="9s" repeatCount="indefinite"/></stop></linearGradient></defs>
+<rect width="880" height="120" rx="14" fill="#161618"/>
+<path d="M0,78 C120,58 240,98 440,78 C640,58 760,98 880,78 L880,120 L0,120 Z" fill="url(#rb3)" opacity="0.9">
+  <animate attributeName="d"
+    values="M0,78 C120,58 240,98 440,78 C640,58 760,98 880,78 L880,120 L0,120 Z;
+            M0,88 C120,98 240,62 440,86 C640,98 760,60 880,88 L880,120 L0,120 Z;
+            M0,78 C120,58 240,98 440,78 C640,58 760,98 880,78 L880,120 L0,120 Z"
+    dur="7s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1;0.4 0 0.2 1"/>
+</path>
+<text x="440" y="48" text-anchor="middle" font-family="Archivo, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="600" letter-spacing="4" fill="#ece7e2">SHIP SOMETHING BEAUTIFUL</text>
+</svg>

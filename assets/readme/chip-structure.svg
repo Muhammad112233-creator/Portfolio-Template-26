@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="54" viewBox="0 0 360 54">
+<defs><linearGradient id="g_chip-structure" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0.00" stop-color="#ff004c"><animate attributeName="stop-color" values="#ff004c;#ff8a00;#ffe600;#3ddb4f;#2f9bff;#8b3dff;#ff004c" dur="7s" repeatCount="indefinite"/></stop><stop offset="0.20" stop-color="#ff8a00"><animate attributeName="stop-color" values="#ff8a00;#ffe600;#3ddb4f;#2f9bff;#8b3dff;#ff004c;#ff8a00" dur="7s" repeatCount="indefinite"/></stop><stop offset="0.40" stop-color="#ffe600"><animate attributeName="stop-color" values="#ffe600;#3ddb4f;#2f9bff;#8b3dff;#ff004c;#ff8a00;#ffe600" dur="7s" repeatCount="indefinite"/></stop><stop offset="0.60" stop-color="#3ddb4f"><animate attributeName="stop-color" values="#3ddb4f;#2f9bff;#8b3dff;#ff004c;#ff8a00;#ffe600;#3ddb4f" dur="7s" repeatCount="indefinite"/></stop><stop offset="0.80" stop-color="#2f9bff"><animate attributeName="stop-color" values="#2f9bff;#8b3dff;#ff004c;#ff8a00;#ffe600;#3ddb4f;#2f9bff" dur="7s" repeatCount="indefinite"/></stop><stop offset="1.00" stop-color="#8b3dff"><animate attributeName="stop-color" values="#8b3dff;#ff004c;#ff8a00;#ffe600;#3ddb4f;#2f9bff;#8b3dff" dur="7s" repeatCount="indefinite"/></stop></linearGradient></defs>
+<rect width="360" height="54" rx="10" fill="#161618"/>
+<rect x="10" y="49" width="340" height="2.5" fill="url(#g_chip-structure)">
+  <animate attributeName="x" values="-340;10;10" dur="5s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.2 1;0 0 1 1"/>
+</rect>
+<text x="18" y="35" font-family="Archivo, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="19" font-weight="600" letter-spacing="3" fill="#ece7e2">⌘  PROJECT MAP</text>
+</svg>
